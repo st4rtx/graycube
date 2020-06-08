@@ -39,7 +39,8 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #6a6972;
+  color: #fff;
+  background-color: #8c929f;
   overflow-x: hidden;
 }
 
@@ -130,7 +131,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  color: #6a6972;
+  color: #54535c;
   margin: 0px;
 }
 
@@ -258,7 +259,7 @@ p {
   height: 100%;
   width: 100%;
   /* Change Background Color */
-  background: #fff;
+  background: #8c929f;
   z-index: 99999;
 }
 .preloader .loader {
@@ -614,7 +615,7 @@ p {
 }
 
 .navbar {
-  padding: 25px 0;
+  padding: 20px 0;
   border-radius: 5px;
   position: relative;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -626,6 +627,7 @@ p {
 
 .navbar-brand {
   padding: 0;
+  width: 200px;
 }
 
 .navbar-toggler {
