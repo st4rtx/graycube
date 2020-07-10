@@ -184,9 +184,9 @@ p {
 
 /*===== All SECTION TITLE Style =====*/
 .section-title .line {
-  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: -webkit-linear-gradient(#ffffff 0%, #bbbbbb 100%);
+  background: -o-linear-gradient(#00adee 0%, #00adee 100%);
+  background: linear-gradient(#00adee 0%, #00adee 100%);
   width: 150px;
   height: 5px;
   margin-bottom: 10px !important;
@@ -228,7 +228,9 @@ p {
 .section-title .title {
   font-size: 32px;
   padding-top: 10px;
+  color: white;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-title .title {
     font-size: 30px;
@@ -882,9 +884,9 @@ p {
 .navbar-btn .main-btn {
   height: 45px;
   line-height: 45px;
-  background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background: -webkit-linear-gradient(left, #64c2fe 0%, #6eb5fe 50%, #64acfe 100%);
+  background: -o-linear-gradient(left, #64c2fe 0%, #6eb5fe 50%, #64acfe 100%);
+  background: linear-gradient(to right, #64c2fe 0%, #6eb5fe 50%, #64acfe 100%);
   background-size: 200%;
 }
 .navbar-btn .main-btn:hover {
@@ -1152,6 +1154,10 @@ p {
   z-index: 5;
 }
 
+.about-p {
+  color: white;
+}
+
 .about-shape-1 {
   position: absolute;
   top: 0;
@@ -1193,9 +1199,9 @@ p {
   margin-top: 15px;
 }
 .about-content .main-btn {
-  background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background: -webkit-linear-gradient(#33c8c1 0%, #119bd2 100%);
+  background: -o-linear-gradient(#33c8c1 0%, #119bd2 100%);
+  background: linear-gradient(#33c8c1 0%, #119bd2 100%);
   background-size: 200%;
   height: 50px;
   line-height: 50px;
@@ -1338,9 +1344,9 @@ p {
   background: linear-gradient(#33c8c1 0%, #119bd2 100%);
 }
 .counter-wrapper .single-counter.counter-color-2::before {
-  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: -webkit-linear-gradient(#33c8c1 0%, #119bd2 100%);
+  background: -o-linear-gradient(#33c8c1 0%, #119bd2 100%);
+  background: linear-gradient(#33c8c1 0%, #119bd2 100%);
 }
 .counter-wrapper .single-counter.counter-color-3::before {
   background: -webkit-linear-gradient(#361cc1 0%, #2e82ef 100%);
@@ -1416,9 +1422,9 @@ p {
   z-index: -1;
   top: 0;
   left: 0;
-  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: -webkit-linear-gradient(#64ecfe 0%, #3acbdf 100%);
+  background: -o-linear-gradient(#64ecfe 0%, #3acbdf 100%);
+  background: linear-gradient(#64ecfe 0%, #3acbdf 100%);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1538,7 +1544,7 @@ p {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #fe8464 0%, #fe6e9a 100%);
+  background: linear-gradient(180deg, #64ecfe 0%, #07acc2 100%);
   border: 0;
   font-size: 0;
   opacity: 0.5;
@@ -1673,9 +1679,9 @@ p {
   border-bottom-right-radius: 5px;
   height: 65px;
   line-height: 65px;
-  background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background: -webkit-linear-gradient(left, #64c0fe 0%, #6eedfe 50%, #64ecfe 100%);
+  background: -o-linear-gradient(left, #64c0fe 0%, #6eedfe 50%, #64ecfe 100%);
+  background: linear-gradient(to right, #64c0fe 0%, #6eedfe 50%, #64ecfe 100%);
   background-size: 200%;
 }
 @media (max-width: 767px) {
@@ -1717,7 +1723,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../images/footer-bg.svg);
+  background-image: url(../images/footer-bg.jpg);
   background-position: top center;
   z-index: -1;
   background-size: cover;
@@ -1768,7 +1774,7 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .footer-about .social li a:hover {
-  color: #fe8464;
+  color: #64bafe;
 }
 
 .footer-title .title {
@@ -1802,7 +1808,7 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .link-wrapper .link li a:hover {
-  color: #fe8464;
+  color: #64bafe;
 }
 
 .footer-contact .contact {
